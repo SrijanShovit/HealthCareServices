@@ -45,7 +45,7 @@ const Footer = () => {
                     
                     </IconContext.Provider>
 
-                    <IconContext.Provider value={{ color: "linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)",className:"icons" }}>
+                    <IconContext.Provider value={{ className:"icons" }}>
                 
                     <AiFillInstagram />
                     
