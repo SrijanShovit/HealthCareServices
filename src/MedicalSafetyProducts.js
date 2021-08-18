@@ -20,17 +20,17 @@ const MedicalSafetyProducts = () => {
 
                                 <div className="col-lg-4 col-12" >
                                 <div className="container mt-3" >
-                                <img src={ppe} className="d-block " id="muesli" />
+                                <img src={ppe} className="d-block " id="muesli" alt="ppekit"/>
                                 </div>
                                 </div>
                                 <div className="col-lg-4 col-12" >
                                 <div className="container mt-3" >
-                                <img src={antiseptic} className="d-block " id="muesli" />
+                                <img src={antiseptic} className="d-block " id="muesli" alt="antisptic"/>
                                 </div>
                                 </div>
                                 <div className="col-lg-4 col-12" >
                                 <div className="container mt-3" >
-                                <img src={orthopaedic} className="d-block " id="muesli" />
+                                <img src={orthopaedic} className="d-block " id="muesli" alt="orthopaedic"/>
                                 </div>
                                 </div>                              
                             
