@@ -10,10 +10,10 @@ const Navbar = () => {
 
             <nav className="navbar navbar-light" style={{ backgroundColor: '#e3f2fd' }}>
                 <div className="container-fluid">
-                    <a className="navbar-brand">
+                    <div className="navbar-brand" >
                         <img src={logo} alt="Aakanksha" width={75} height={75} className="d-inline-block align-text-top" />
 
-                    </a>
+                    </div>
                     <form className="d-flex">
                         <input className="form-control mr-2 searchbox" type="search" placeholder="Delivery pin | Search medicine, camps, health brands" aria-label="Search" />
                         

@@ -32,7 +32,7 @@ const Buttongroup = () => {
 
                     <div className="col-lg-12 col-12 " align="right">
                     <div className="ml-2 mr-2 " >
-                    <img src={download} className="cart"/>
+                    <img src={download} className="cart" alt="cart"/>
                     <button type="button" className="btn btn-primary ml-2 mr-2 signinbutton">Sign In</button> 
                     </div> 
                     </div>

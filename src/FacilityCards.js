@@ -15,7 +15,7 @@ const FacilityCards = () => {
                         <div className="card cardfeature" >
 
                             <div align="center">
-                                <img src={medicine} className="d-block mt-3 cardgroup"/>
+                                <img src={medicine} className="d-block mt-3 cardgroup" alt="medicine"/>
                             </div>
 
 
@@ -41,7 +41,7 @@ const FacilityCards = () => {
                         <div className="card" >
 
                             <div align="center">
-                                <img src={doctor} className="d-block mt-3 cardgroup"  />
+                                <img src={doctor} className="d-block mt-3 cardgroup" alt="doctor" />
                             </div>
 
 
@@ -64,7 +64,7 @@ const FacilityCards = () => {
 
                         <div className="card">
                             <div align="center">
-                                <img src={campaign} className="d-block mt-3 cardgroup "  />
+                                <img src={campaign} className="d-block mt-3 cardgroup " alt="campaign" />
                             </div>
 
                             <div className="card-body">

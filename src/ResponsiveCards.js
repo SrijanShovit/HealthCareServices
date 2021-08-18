@@ -15,7 +15,7 @@ const ResponsiveCards = () => {
 
                         <div className="card cardfeature" >
                             
-                            <img src={medicine} className=" mt-3 cardgroup"/>
+                            <img src={medicine} className=" mt-3 cardgroup" alt="cart"/>
                                                        
                             <h5>Card title</h5>
 
@@ -38,7 +38,7 @@ const ResponsiveCards = () => {
                         <div className="card" >
 
                             <div align="center">
-                                <img src={doctor} className="d-block mt-3 cardgroup"  />
+                                <img src={doctor} className="d-block mt-3 cardgroup" alt="cart" />
                             </div>
 
 
@@ -61,7 +61,7 @@ const ResponsiveCards = () => {
 
                         <div className="card">
                             <div align="center">
-                                <img src={campaign} className="d-block mt-3 cardgroup "  />
+                                <img src={campaign} className="d-block mt-3 cardgroup " alt="cart"  />
                             </div>
 
                             <div className="card-body">

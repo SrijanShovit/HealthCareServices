@@ -22,17 +22,17 @@ const Nutritious = () => {
 
                                 <div className="col-lg-4 col-12" >
                                 <div className="container mt-3" >
-                                <img src={muesli} className="d-block " id="muesli" />
+                                <img src={muesli} className="d-block " id="muesli" alt="muesli" />
                                 </div>
                                 </div>
                                 <div className="col-lg-4 col-12" >
                                 <div className="container mt-3" >
-                                <img src={oats} className="d-block " id="muesli" />
+                                <img src={oats} className="d-block " id="muesli" alt="oats" />
                                 </div>
                                 </div>
                                 <div className="col-lg-4 col-12" >
                                 <div className="container mt-3" >
-                                <img src={nuts} className="d-block " id="muesli" />
+                                <img src={nuts} className="d-block " id="muesli" alt="nuts"/>
                                 </div>
                                 </div>                              
                             

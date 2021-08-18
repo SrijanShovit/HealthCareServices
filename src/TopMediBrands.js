@@ -22,17 +22,17 @@ const TopMediBrands = () => {
 
                                 <div className="col-lg-4 col-12" >
                                     <div className="container mt-3" >
-                                        <img src={ab} className="d-block " id="muesli" />
+                                        <img src={ab} className="d-block " id="muesli" alt="aurobindo"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-12" >
                                     <div className="container mt-3" >
-                                        <img src={johnson} className="d-block " id="muesli" />
+                                        <img src={johnson} className="d-block " id="muesli" alt="johnson" />
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-12" >
                                     <div className="container mt-3" >
-                                        <img src={reddy} className="d-block " id="muesli" />
+                                        <img src={reddy} className="d-block " id="muesli" alt="reddy" />
                                     </div>
                                 </div>
 
