@@ -1,31 +1,30 @@
 
-import Navbar from './Navbar'
-import Buttongroup from './Buttongroup'
-import Carousal2 from './Carousal2'
-import MedicalSafetyProducts from './MedicalSafetyProducts'
-import Features from './Features'
-import Footer from './Footer'
-import FacilityCards from './FacilityCards'
-import Nutritious from './Nutritious'
-import TopMediBrands from './TopMediBrands'
+import Home from './Home'
+import Knockknockmedico from './Knockknockmedico'
 import './App.css'
 // import ResponsiveCards from './ResponsiveCards'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <Buttongroup/>
-      <Carousal2/>
-      {/* <ResponsiveCards/> */}
-      <FacilityCards/>
-      <MedicalSafetyProducts/>
-      <Nutritious/>
-      <TopMediBrands/>
-      {/* <ViewMoreCards/> */}
-      <Features/>
-      <Footer/>
+    <>     
+
+      <Router>
+        
+            <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/medico" component={Knockknockmedico} />
+                
+            </Switch>
+           
+      </Router>
     </>
   );
 }

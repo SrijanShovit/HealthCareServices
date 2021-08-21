@@ -2,6 +2,12 @@ import React from 'react'
 import doctor from './assets/Doctor.jpg'
 import campaign from './assets/HealthCampaign.jpg'
 import medicine from './assets/Medicine.jpg'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const FacilityCards = () => {
     return (
@@ -26,7 +32,9 @@ const FacilityCards = () => {
                             </div>
 
                             <div align="right">
+                            {/* <Link to="/medico">  */}
                             <button type="button" className="btn btn-warning seemore1 mr-3 mb-2">Order Now</button>
+                            {/* </Link> */}
                             </div>
 
                         </div>
