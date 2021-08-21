@@ -1,6 +1,8 @@
 
 import Home from './Home'
 import Knockknockmedico from './Knockknockmedico'
+import Doctor from './Doctor'
+import Cart from './Cart'
 import './App.css'
 // import ResponsiveCards from './ResponsiveCards'
 
@@ -21,6 +23,8 @@ function App() {
             <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/medico" component={Knockknockmedico} />
+            <Route path="/appointment" component={Doctor} />
+            <Route path="/cart" component={Cart} />
                 
             </Switch>
            
