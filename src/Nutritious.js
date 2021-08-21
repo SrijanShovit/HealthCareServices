@@ -2,6 +2,12 @@ import React from 'react'
 import muesli from './assets/Muesli.jpg'
 import oats from './assets/Oats.jpg'
 import nuts from './assets/Nuts.jpg'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const Nutritious = () => {
     return (
@@ -40,7 +46,9 @@ const Nutritious = () => {
                             </div>
 
                             <div className="col-lg-12 col-12 " align="right">
+                            <Link to="/medico">
                             <button type="button" className="btn btn-warning seemore1">See More</button>
+                            </Link>
                             </div>
 
 

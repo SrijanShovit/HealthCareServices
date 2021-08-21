@@ -2,6 +2,12 @@ import React from 'react'
 import ppe from './assets/Ppekit.jpg'
 import antiseptic from './assets/Antiseptic.jpg'
 import orthopaedic from './assets/Orthopaedic.jpeg'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const MedicalSafetyProducts = () => {
     return (
@@ -38,7 +44,9 @@ const MedicalSafetyProducts = () => {
                             </div>
 
                             <div className="col-lg-12 col-12 " align="right">
+                            <Link to="/medico">
                             <button type="button" className="btn btn-warning seemore1">See More</button>
+                            </Link>
                             </div>
 
 

@@ -32,9 +32,9 @@ const FacilityCards = () => {
                             </div>
 
                             <div align="right">
-                            {/* <Link to="/medico">  */}
+                            <Link to="/medico"> 
                             <button type="button" className="btn btn-warning seemore1 mr-3 mb-2">Order Now</button>
-                            {/* </Link> */}
+                            </Link>
                             </div>
 
                         </div>
@@ -60,7 +60,9 @@ const FacilityCards = () => {
                             </div>
 
                             <div align="right">
+                            <Link to="/appointment">
                             <button type="button" className="btn btn-warning seemore1 mr-3 mb-2">Book Now</button>
+                            </Link>
                             </div>
 
                         </div>
