@@ -5,9 +5,7 @@ import healthsafetyapi from './Healthsafetyapi'
 import nutritiousapi from './Nutritiousapi'
 import Buttongroup from './Buttongroup'
 import Footer from './Footer'
-import doctor from './assets/Doctor.jpg'
-import campaign from './assets/HealthCampaign.jpg'
-import medicine from './assets/Medicine.jpg'
+
 import './App.css'
 
 
