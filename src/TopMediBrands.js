@@ -2,6 +2,12 @@ import React from 'react'
 import ab from './assets/Aurobindo.png'
 import johnson from './assets/Johnson.png'
 import reddy from './assets/Reddy.jpg'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const TopMediBrands = () => {
     return (
@@ -40,7 +46,9 @@ const TopMediBrands = () => {
                             </div>
 
                             <div className="col-lg-12 col-12 " align="right">
+                                <Link to="/brands">
                                 <button type="button" className="btn btn-warning seemore1">See More</button>
+                                </Link>
                             </div>
 
 

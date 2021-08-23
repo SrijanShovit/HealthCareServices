@@ -3,6 +3,7 @@ import Home from './Home'
 import Knockknockmedico from './Knockknockmedico'
 import Doctor from './Doctor'
 import Cart from './Cart'
+import Brand from './Brand'
 import './App.css'
 // import ResponsiveCards from './ResponsiveCards'
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/appointment" component={Doctor} />
             <Route path="/cart" component={Cart} />
             <Route path="/camps" component={HealthCamp} />
+            <Route path="/brands" component={Brand} />
             <Route path='/linkedin' component={() => { 
             window.location.href = 'https://in.linkedin.com/company/aakankshaecommerce'; 
             return null;

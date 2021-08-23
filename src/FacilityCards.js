@@ -84,7 +84,9 @@ const FacilityCards = () => {
                             </div>
 
                             <div align="right">
+                            <Link to="/camps">
                             <button type="button" className="btn btn-warning seemore1 mr-3 mb-2">Find Location</button>
+                            </Link>
                             </div>
                         </div>
 
