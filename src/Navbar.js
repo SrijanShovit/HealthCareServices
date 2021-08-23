@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from './assets/logo.jpg'
-import download from './assets/download.png'
 import {
     Link
   } from "react-router-dom";
@@ -9,7 +8,7 @@ import {
 // import cart from './assets/Cart.jpg'
 // import download from './assets/download.png'
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <>
         
@@ -33,7 +32,7 @@ const Navbar = () => {
                       
                     (6)
                     <button type="button" className="btn btn-primary ml-2 mr-2 signinbutton">
-                        Sign In
+                        {props.btnx ? "Sign In" : "Sign Out" }
                     </button> 
                         
                     </form>

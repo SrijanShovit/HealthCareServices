@@ -3,9 +3,6 @@ import doctor from './assets/Doctor.jpg'
 import campaign from './assets/HealthCampaign.jpg'
 import medicine from './assets/Medicine.jpg'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 

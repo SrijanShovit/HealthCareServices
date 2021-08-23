@@ -12,10 +12,10 @@ import TopMediBrands from './TopMediBrands'
 import NavigationButtons from './NavigationButtons'
 import './App.css'
 
-const Home = () => {
+const Home = (props) => {
     return (
         <>
-                <Navbar/>
+                <Navbar btnx={props.btnx}/>
             {/* <Buttongroup/> */}
             <NavigationButtons/>
             <Carousal2/>

@@ -3,9 +3,6 @@ import muesli from './assets/Muesli.jpg'
 import oats from './assets/Oats.jpg'
 import nuts from './assets/Nuts.jpg'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 

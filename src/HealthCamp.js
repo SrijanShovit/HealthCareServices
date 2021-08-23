@@ -10,7 +10,7 @@ import './App.css'
 
 const HealthCamp = () => {
 
-    const [campData, setCampData] = useState(campapi)
+    const [campData] = useState(campapi)
     
     return (
         <>
@@ -31,10 +31,10 @@ const HealthCamp = () => {
 
                         return (
 
-                            <>
+                            
                                 <div className="col-lg-4 col-12 " key={id}>
 
-                                <div className="card cardfeature" >
+                                 <div className="card cardfeature" >
 
                                     <div align="center">
                                        <img src={img} className="d-block mt-3 cardgroup" alt="medicine"/>
@@ -59,7 +59,7 @@ const HealthCamp = () => {
 
 
                                 </div>
-                            </>
+                            
                         )                        
 
                 })}

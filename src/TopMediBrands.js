@@ -3,9 +3,6 @@ import ab from './assets/Aurobindo.png'
 import johnson from './assets/Johnson.png'
 import reddy from './assets/Reddy.jpg'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 

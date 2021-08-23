@@ -3,9 +3,6 @@ import ppe from './assets/Ppekit.jpg'
 import antiseptic from './assets/Antiseptic.jpg'
 import orthopaedic from './assets/Orthopaedic.jpeg'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 

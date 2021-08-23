@@ -51,7 +51,7 @@ const Footer = () => {
                     </Link>
 
                     <Link to="/insta">
-                    <IconContext.Provider value={{ className:"icons" }}>                
+                    <IconContext.Provider value={{ color: "white",className:"icons" }}>                
                     <AiFillInstagram />                    
                     </IconContext.Provider>
                     </Link>

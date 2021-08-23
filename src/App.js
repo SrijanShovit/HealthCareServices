@@ -11,7 +11,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import HealthCamp from './HealthCamp'
 
@@ -23,7 +22,7 @@ function App() {
       <Router>
         
             <Switch>
-            <Route path="/" component={Home} exact />
+            <Route path="/" component={ () => <Home btnx={true}/>} exact />
             <Route path="/medico" component={Knockknockmedico} />
             <Route path="/appointment" component={Doctor} />
             <Route path="/cart" component={Cart} />

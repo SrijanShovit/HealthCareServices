@@ -10,7 +10,7 @@ import './App.css'
 
 const Brand = () => {
 
-    const [brandData, setBrandData] = useState(brandapi)
+    const [brandData] = useState(brandapi)
     
     return (
         <>
@@ -26,13 +26,13 @@ const Brand = () => {
                 </div>
 
                 { 
-                    brandData.map((curElem) => {
-                        const {id,img,name,description} = curElem
+                    brandData.map((curElem,key) => {
+                        const {img} = curElem
 
                         return (
 
-                            <>
-                                <div className="col-lg-4 col-12 " key={id}>
+                            
+                                <div className="col-lg-4 col-12 " key={key}>
 
                                 <div className="card cardfeature" >
 
@@ -59,7 +59,7 @@ const Brand = () => {
 
 
                                 </div>
-                            </>
+                            
                         )                        
 
                 })}

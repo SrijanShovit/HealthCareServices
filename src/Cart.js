@@ -9,9 +9,9 @@ import NavigationButtons from './NavigationButtons'
 import './App.css'
 
 
-const Doctor = () => {
+const Cart = () => {
 
-    const [cartData, setCartData] = useState(cartapi)
+    const [cartData] = useState(cartapi)
     
     return (
         <>
@@ -27,13 +27,13 @@ const Doctor = () => {
                 </div>
 
                 { 
-                    cartData.map((curElem) => {
-                        const {id,img,name,description} = curElem
+                    cartData.map((curElem,key) => {
+                        const {img,name,description} = curElem
 
                         return (
 
-                            <>
-                                <div className="col-lg-4 col-12 " key={id}>
+                            
+                                <div className="col-lg-4 col-12 " key={key}>
 
                                 <div className="card cardfeature" >
 
@@ -60,7 +60,7 @@ const Doctor = () => {
 
 
                                 </div>
-                            </>
+                            
                         )                        
 
                 })}
@@ -74,4 +74,4 @@ const Doctor = () => {
     )
 }
 
-export default Doctor
+export default Cart

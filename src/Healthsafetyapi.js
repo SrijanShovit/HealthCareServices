@@ -8,7 +8,7 @@ import './App.css'
 
 const healthsafetyapi = [
     {
-        id : 1,
+        id1 : 1,
         img: mask,
         name : 'Savlon Masks',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
@@ -16,7 +16,7 @@ const healthsafetyapi = [
 
     },
     {
-        id : 2,
+        id1 : 2,
         img: gloves,
         name : 'Aurobindo Gloves',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
@@ -24,7 +24,7 @@ const healthsafetyapi = [
 
     },
     {
-        id : 3,
+        id1 : 3,
         img: sanitizer,
         name : 'Peroxide Sanitizer',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
@@ -32,7 +32,7 @@ const healthsafetyapi = [
 
     },
     {
-        id : 4,
+        id1 : 4,
         img: cream,
         name : 'Savlon Antiseptic Cream',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',

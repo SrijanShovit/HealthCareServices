@@ -10,7 +10,7 @@ import './App.css'
 
 const Doctor = () => {
 
-    const [doctorData, setDoctorData] = useState(doctorapi)
+    const [doctorData] = useState(doctorapi)
     
     return (
         <>
@@ -26,13 +26,13 @@ const Doctor = () => {
                 </div>
 
                 { 
-                    doctorData.map((curElem) => {
-                        const {id,img,name,description} = curElem
+                    doctorData.map((curElem,key) => {
+                        const {img,name,description} = curElem
 
                         return (
 
-                            <>
-                                <div className="col-lg-4 col-12 " key={id}>
+                            
+                                <div className="col-lg-4 col-12 " key={key}>
 
                                 <div className="card cardfeature" >
 
@@ -59,7 +59,7 @@ const Doctor = () => {
 
 
                                 </div>
-                            </>
+                            
                         )                        
 
                 })}

@@ -12,9 +12,9 @@ import './App.css'
 
 const Knockknockmedico = () => {
 
-    const [medicineData, setMedicineData] = useState(medicineapi)
-    const [healthSafetyData, setHealthSafetyData] = useState(healthsafetyapi)
-    const [nutritiousData, setNutritiousData] = useState(nutritiousapi)
+    const [medicineData] = useState(medicineapi)
+    const [healthSafetyData] = useState(healthsafetyapi)
+    const [nutritiousData] = useState(nutritiousapi)
     return (
         <>
         <Navbar/>
@@ -31,13 +31,13 @@ const Knockknockmedico = () => {
                 </div>
 
                 { 
-                    medicineData.map((curElem) => {
-                        const {id,img,name,description} = curElem
+                    medicineData.map((curElem,key) => {
+                        const {img,name,description} = curElem
 
                         return (
 
-                            <>
-                                <div className="col-lg-4 col-12 " key={id}>
+                            
+                                <div className="col-lg-4 col-12 " key={key}>
 
                                 <div className="card cardfeature" >
 
@@ -66,7 +66,7 @@ const Knockknockmedico = () => {
 
 
                                 </div>
-                            </>
+                            
                         )
 
 
@@ -84,13 +84,13 @@ const Knockknockmedico = () => {
                 </div>
 
                 { 
-                    healthSafetyData.map((curElem) => {
-                        const {id,img,name,description} = curElem
+                    healthSafetyData.map((curElem,key) => {
+                        const {img,name,description} = curElem
 
                         return (
 
-                            <>
-                                <div className="col-lg-4 col-12 " key={id}>
+                            
+                                <div className="col-lg-4 col-12 " key={key}>
 
                                 <div className="card cardfeature" >
 
@@ -119,7 +119,7 @@ const Knockknockmedico = () => {
 
 
                                 </div>
-                            </>
+                            
                         )
 
 
@@ -139,13 +139,13 @@ const Knockknockmedico = () => {
                 </div>
 
                 { 
-                    nutritiousData.map((curElem) => {
-                        const {id,img,name,description} = curElem
+                    nutritiousData.map((curElem,key) => {
+                        const {img,name,description} = curElem
 
                         return (
 
-                            <>
-                                <div className="col-lg-4 col-12 " key={id}>
+                            
+                                <div className="col-lg-4 col-12 " key={key}>
 
                                 <div className="card cardfeature" >
 
@@ -174,7 +174,7 @@ const Knockknockmedico = () => {
 
 
                                 </div>
-                            </>
+                            
                         )
 
 
