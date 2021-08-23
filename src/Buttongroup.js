@@ -33,7 +33,7 @@ const Buttongroup = () => {
                     
                     <div className="row">
 
-                    <div className="col-lg-12 col-12 " align="right">
+                    <div className="col-lg-12 col-12 " align="center">
                     <div className="ml-2 mr-2 " >
                     <Link to="/cart">
                     <img src={download} className="cart" alt="cart"/>

@@ -8,7 +8,7 @@ import NavigationButtons from './NavigationButtons'
 import './App.css'
 
 
-const Doctor = () => {
+const HealthCamp = () => {
 
     const [doctorData, setDoctorData] = useState(doctorapi)
     
@@ -73,4 +73,4 @@ const Doctor = () => {
     )
 }
 
-export default Doctor
+export default HealthCamp

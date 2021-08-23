@@ -12,48 +12,48 @@ const nutritiousapi = [
     {
         id : 1,
         img: fig,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Yo! Vita Figs',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 2,
         img: dates,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Dubai Dates',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 3,
         img: veg,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Diara\'s Green Vegetables',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 4,
         img: oats,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Quaker Oats',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 5,
         img: muesli,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Alpino Muesli',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 6,
         img: nuts,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Super Healthy Nuts',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },

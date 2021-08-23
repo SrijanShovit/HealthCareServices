@@ -12,7 +12,7 @@ const doctorapi = [
         id : 1,
         img: doctor1,
         name : 'Dr. Johanna',
-        description : '',
+        description : 'Heart Care Specialist at XYZ Nusing Home',
         button : 'Add To Cart'
 
     },
@@ -20,7 +20,7 @@ const doctorapi = [
         id : 2,
         img: doctor2,
         name : 'Dr. Praveen',
-        description : '',
+        description : 'ENT specialist at Appollo Hospital',
         button : 'Add To Cart'
 
     },
@@ -28,7 +28,7 @@ const doctorapi = [
         id : 3,
         img: doctor3,
         name : 'Dr. Sara',
-        description : '',
+        description : 'Psychiatrist at ABC Hospital',
         button : 'Add To Cart'
 
     },
@@ -36,7 +36,7 @@ const doctorapi = [
         id : 4,
         img: doctor4,
         name : 'Dr. John',
-        description : '',
+        description : 'Radiologist at ABC Diagnostic Center',
         button : 'Add To Cart'
 
     },
@@ -44,7 +44,7 @@ const doctorapi = [
         id : 5,
         img: doctor5,
         name : 'Dr. Sophia',
-        description : '',
+        description : 'Senior Neurologist at AIIMS Patna',
         button : 'Add To Cart'
 
     },

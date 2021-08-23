@@ -5,7 +5,7 @@
 }
 
 .searchbox{
-  width: 40vw;
+  width: 30vw;
 }
 .row{
   overflow-x:hidden;
@@ -153,6 +153,12 @@
   margin-left:10px;
   margin-right:10px;
   color: pink
+}
+
+.navbar-icon{
+  height:50px;
+  margin-top:-10px;
+  width:50px;
 }
 
 .App {

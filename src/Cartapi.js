@@ -12,48 +12,48 @@ const cartapi = [
     {
         id : 1,
         img: fig,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Yo! Vita Figs',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 2,
         img: dates,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Dubai Dates',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 3,
         img: veg,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Diara\'s Green Vegetables',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 4,
         img: immunity,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Alum Immune Boost',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 5,
         img: mask,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Savlon Masks',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 6,
         img: sanitizer,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Peroxide Sanitizer',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },

@@ -25,6 +25,10 @@ function App() {
             <Route path="/medico" component={Knockknockmedico} />
             <Route path="/appointment" component={Doctor} />
             <Route path="/cart" component={Cart} />
+            <Route path='/linkedin' component={() => { 
+            window.location.href = 'https://in.linkedin.com/company/aakankshaecommerce'; 
+            return null;
+            }}/>
                 
             </Switch>
            

@@ -1,46 +1,62 @@
-import kidney from './assets/kidney.jpg'
-import heart from './assets/heart.jpg'
-import diabetes from './assets/diabetes.jpg'
+import fig from './assets/fig.jpg'
+import dates from './assets/dates.jpg'
+import veg from './assets/veg.jpg'
 import immunity from './assets/immunity.jpg'
-import liver from './assets/liver.png'
+import mask from './assets/mask.png'
+import sanitizer from './assets/sanitizer.jpg'
+
 
 import './App.css'
-const medicineapi = [
-    { 
+
+const campapi = [
+    {
         id : 1,
-        img: diabetes,
-        name : 'Metformin 500 mg Tablets',
+        img: fig,
+        name : 'Yo! Vita Figs',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
+
     },
-    { 
+    {
         id : 2,
-        img: heart,
-        name : 'Metformin 850 mg Tablets',
+        img: dates,
+        name : 'Dubai Dates',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
+
     },
-    { 
+    {
         id : 3,
-        img: kidney,
-        name : 'Kidney Care Capsule',
+        img: veg,
+        name : 'Diara\'s Green Vegetables',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
+
     },
-    { 
+    {
         id : 4,
-        img: liver,
-        name : 'Hepat Tonic',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
-        button : 'Add To Cart'
-    },
-    { 
-        id : 5,
         img: immunity,
         name : 'Alum Immune Boost',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
+
+    },
+    {
+        id : 5,
+        img: mask,
+        name : 'Savlon Masks',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
+        button : 'Add To Cart'
+
+    },
+    {
+        id : 6,
+        img: sanitizer,
+        name : 'Peroxide Sanitizer',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
+        button : 'Add To Cart'
+
     },
 ]
 
-export default medicineapi
+export default  campapi

@@ -28,7 +28,7 @@ const FacilityCards = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Knock knock Medico</h5>
 
-                                <p className="card-text description">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p className="card-text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officiis delectus cumque! Explicabo ipsam at quos quae quo asperiores vero. A, pariatur esse dignissimos consectetur libero</p>
                             </div>
 
                             <div align="right">
@@ -56,7 +56,7 @@ const FacilityCards = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Doctor's Consultation</h5>
 
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officiis delectus cumque! Explicabo ipsam at quos quae quo asperiores vero. </p>
                             </div>
 
                             <div align="right">
@@ -80,7 +80,7 @@ const FacilityCards = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Health Camp</h5>
 
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officiis delectus cumque! Explicabo ipsam at quos quae quo asperiores vero.</p>
                             </div>
 
                             <div align="right">

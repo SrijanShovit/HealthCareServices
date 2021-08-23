@@ -1,4 +1,8 @@
 import React from 'react'
+import {
+    Link
+  } from "react-router-dom";
+
 import { IconContext } from "react-icons";
 import { AiFillFacebook } from 'react-icons/ai'
 import { AiFillTwitterCircle } from 'react-icons/ai'
@@ -26,13 +30,14 @@ const Footer = () => {
 
                     
                                  
-                
+                    <Link to="/linkedin">
                     <IconContext.Provider value={{ color: "blue",className:"icons" }}>
                     
                     <AiFillLinkedin />
                     
                     </IconContext.Provider>
-
+                    </Link>
+                    
                     <IconContext.Provider value={{ color: "	rgb(0, 136, 224)",className:"icons" }}>
                     
                     <FaTelegram />

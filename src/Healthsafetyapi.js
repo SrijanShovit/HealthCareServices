@@ -10,32 +10,32 @@ const healthsafetyapi = [
     {
         id : 1,
         img: mask,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Savlon Masks',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 2,
         img: gloves,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Aurobindo Gloves',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 3,
         img: sanitizer,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Peroxide Sanitizer',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 4,
         img: cream,
-        name : 'cnvcbn',
-        description : '',
+        name : 'Savlon Antiseptic Cream',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },

@@ -3,8 +3,9 @@ import Navbar from './Navbar'
 import medicineapi from './Medicineapi'
 import healthsafetyapi from './Healthsafetyapi'
 import nutritiousapi from './Nutritiousapi'
-import Buttongroup from './Buttongroup'
+// import Buttongroup from './Buttongroup'
 import Footer from './Footer'
+import NavigationButtons from './NavigationButtons'
 
 import './App.css'
 
@@ -17,7 +18,8 @@ const Knockknockmedico = () => {
     return (
         <>
         <Navbar/>
-        <Buttongroup/>
+        {/* <Buttongroup/> */}
+        <NavigationButtons/>
         <div className="container-fluid  w-100 ">
                 <div className="row">
 
