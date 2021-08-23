@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Navbar from './Navbar'
-import doctorapi from './Doctorsapi'
+import campapi from './HealthCampApi'
 import Footer from './Footer'
 // import Buttongroup from './Buttongroup'
 import NavigationButtons from './NavigationButtons'
@@ -10,7 +10,7 @@ import './App.css'
 
 const HealthCamp = () => {
 
-    const [doctorData, setDoctorData] = useState(doctorapi)
+    const [campData, setCampData] = useState(campapi)
     
     return (
         <>
@@ -22,11 +22,11 @@ const HealthCamp = () => {
 
 
                 <div className="col-lg-12 col-12  mt-3" align="left">
-                <button className="btn btn-warning seemore2" disabled>Consult Doctors</button>                    
+                <button className="btn btn-warning seemore2" disabled>View Health Camps</button>                    
                 </div>
 
                 { 
-                    doctorData.map((curElem) => {
+                    campData.map((curElem) => {
                         const {id,img,name,description} = curElem
 
                         return (
@@ -51,7 +51,7 @@ const HealthCamp = () => {
 
                                     <div align="right">
 
-                                    <button type="button" className="btn btn-warning seemore1 mr-3 mb-2">Book Appointment</button>
+                                    <button type="button" className="btn btn-warning seemore1 mr-3 mb-2">Find Location</button>
 
                                     </div>
 

@@ -1,9 +1,7 @@
-import fig from './assets/fig.jpg'
-import dates from './assets/dates.jpg'
-import veg from './assets/veg.jpg'
-import immunity from './assets/immunity.jpg'
-import mask from './assets/mask.png'
-import sanitizer from './assets/sanitizer.jpg'
+import camp1 from './assets/camp1.jpg'
+import camp2 from './assets/camp2.jpg'
+import camp3 from './assets/camp3.png'
+import camp4 from './assets/camp4.jpg'
 
 
 import './App.css'
@@ -11,52 +9,37 @@ import './App.css'
 const campapi = [
     {
         id : 1,
-        img: fig,
-        name : 'Yo! Vita Figs',
+        img: camp1,
+        name : 'Free Health Camp1',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 2,
-        img: dates,
-        name : 'Dubai Dates',
+        img: camp2,
+        name : 'Free Health Camp2',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 3,
-        img: veg,
-        name : 'Diara\'s Green Vegetables',
+        img: camp3,
+        name : 'Free Health Camp3',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
     {
         id : 4,
-        img: immunity,
-        name : 'Alum Immune Boost',
+        img: camp4,
+        name : 'Free Health Camp4',
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
         button : 'Add To Cart'
 
     },
-    {
-        id : 5,
-        img: mask,
-        name : 'Savlon Masks',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
-        button : 'Add To Cart'
-
-    },
-    {
-        id : 6,
-        img: sanitizer,
-        name : 'Peroxide Sanitizer',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam vitae corrupti.',
-        button : 'Add To Cart'
-
-    },
+   
 ]
 
 export default  campapi
