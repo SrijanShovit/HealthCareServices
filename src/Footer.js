@@ -20,6 +20,8 @@ const Footer = () => {
             <footer className=" text-light py-3 footer " >
 
                 <center>
+                    Aakanksha &copy; Health Care Services 2021
+                    <br/>
             Follow us:
                 
                 <div className="footerpara" >
@@ -32,47 +34,45 @@ const Footer = () => {
                                  
                     <Link to="/linkedin">
                     <IconContext.Provider value={{ color: "blue",className:"icons" }}>
-                    
                     <AiFillLinkedin />
-                    
                     </IconContext.Provider>
                     </Link>
-                    
+
+                    <Link to="/tg">                    
                     <IconContext.Provider value={{ color: "	rgb(0, 136, 224)",className:"icons" }}>
-                    
                     <FaTelegram />
-                    
                     </IconContext.Provider>
+                    </Link>
 
+                    <Link to="/twitter">
                     <IconContext.Provider value={{ color: "blueviolet",className:"icons" }}>
-                
-                    <AiFillTwitterCircle />
-                    
+                    <AiFillTwitterCircle />                  
                     </IconContext.Provider>
+                    </Link>
 
-                    <IconContext.Provider value={{ className:"icons" }}>
-                
-                    <AiFillInstagram />
-                    
+                    <Link to="/insta">
+                    <IconContext.Provider value={{ className:"icons" }}>                
+                    <AiFillInstagram />                    
                     </IconContext.Provider>
+                    </Link>
 
+                    <Link to="/facebook">
                     <IconContext.Provider value={{ color: "blue",className:"icons" }}>
-                
                     <AiFillFacebook />
-                    
                     </IconContext.Provider>
+                    </Link>
 
+                    <Link to="/yt">
                     <IconContext.Provider value={{ color: "red",className:"icons" }}>
-                
-                    <AiFillYoutube />
-                    
+                    <AiFillYoutube />                    
                     </IconContext.Provider>
+                    </Link>
 
-                    <IconContext.Provider value={{ color: "red",className:"icons" }}>
-                
-                    <FaPinterestSquare />
-                    
+                    <Link to="/pinterest">
+                    <IconContext.Provider value={{ color: "red",className:"icons" }}>                
+                    <FaPinterestSquare />                    
                     </IconContext.Provider>
+                    </Link>
                    
                     </IconContext.Provider>
                 </div>

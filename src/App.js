@@ -31,7 +31,30 @@ function App() {
             <Route path="/brands" component={Brand} />
             <Route path='/linkedin' component={() => { 
             window.location.href = 'https://in.linkedin.com/company/aakankshaecommerce'; 
-            return null;
+            return null}}/>
+            <Route path='/twitter' component={() => { 
+            window.location.href = 'https://twitter.com/aakanks57852311?lang=en'; 
+            return null
+            }}/>
+            <Route path='/facebook' component={() => { 
+            window.location.href = 'https://twitter.com/aakanks57852311?lang=en'; 
+            return null
+            }}/>
+            <Route path='/yt' component={() => { 
+            window.location.href = 'https://www.youtube.com/channel/UCQ79LZ_IrnxzkFL5MZxxOeg'; 
+            return null
+            }}/>
+            <Route path='/tg' component={() => { 
+            window.location.href = 'https://t.me/aakankshacompany'; 
+            return null
+            }}/>
+            <Route path='/insta' component={() => { 
+            window.location.href = 'https://www.instagram.com/aakankshacompany/'; 
+            return null
+            }}/>
+            <Route path='/pinterest' component={() => { 
+            window.location.href = 'https://in.pinterest.com/aakankshacompany/_saved/'; 
+            return null
             }}/>
                 
             </Switch>
