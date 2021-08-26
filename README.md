@@ -1,4 +1,4 @@
-# Aakanksha's Heatthcare Services Website UI
+# Aakanksha's Healthcare Services Website UI
 Made using React,Bootstrap and CSS;
 one can check available medicines,nutritious products and health safety products.
 One can also check for an online appointment with a doctor.
